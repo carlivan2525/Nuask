@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A1172"
+    tools:context=".RegisterPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="30dp">
+
+
+        <ImageView
+            android:id="@+id/register_logo"
+            android:layout_width="143dp"
+            android:layout_height="132dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/logologo"
+            tools:ignore="ContentDescription" />
+
+
+        <EditText
+            android:id="@+id/fullname_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/glassmorphic_input"
+            android:hint="Full Name"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B0BEC5"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TextFields,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/glassmorphic_input"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B0BEC5"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/password_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/glassmorphic_input"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#B0BEC5"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,VisualLintTextFieldSize" />
+
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textStyle="bold"
+            android:background="@drawable/neon_button_green"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+
+        <ImageView
+            android:id="@+id/register_loading"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/loading"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</RelativeLayout>

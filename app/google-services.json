@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596641641273",
+    "project_id": "nuask-92806",
+    "storage_bucket": "nuask-92806.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596641641273:android:c5c0d4d223ae4e8ed72ee8",
+        "android_client_info": {
+          "package_name": "com.example.nuaskapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZWMpWyN6ZFqoi4vzLFowqovjmAvqvFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

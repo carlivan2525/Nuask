@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#0A1172">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About NUask"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFD700"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NUask is the official chatbot of National University Laguna. Designed to assist students, faculty, and visitors, NUask provides quick answers to common queries about tuition fees, admissions, schedules, and more. Powered by AI and enriched with real-time university updates, NUask is your go-to virtual assistant for all things NU Laguna!"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key Features:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFD700"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Instant answers to FAQs \n• Up-to-date school announcements \n• Interactive and user-friendly interface \n• Integration with Google Gemini AI for advanced queries \n• Available 24/7 for your convenience"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:lineSpacingExtra="4dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"/>
+    </LinearLayout>
+</ScrollView>
