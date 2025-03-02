@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Welcome to Easy NuASK\nTry it out now"
+            android:text="Welcome to NuASK\nTry it out now"
             android:gravity="center"
             android:textSize="28dp"
             android:textColor="@color/white"
