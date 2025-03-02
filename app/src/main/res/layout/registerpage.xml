@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:text="Register"
             android:textStyle="bold"
-            android:background="@drawable/neon_button_green"
+            android:backgroundTint="#008000"
             android:textColor="#FFFFFF"
             android:layout_marginBottom="16dp"
             tools:ignore="HardcodedText,VisualLintButtonSize" />
